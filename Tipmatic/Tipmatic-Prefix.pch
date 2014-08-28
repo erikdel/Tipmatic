@@ -13,4 +13,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    //#import "Calculator.h"
+    #import "Home.h"
+    #import "People.h"
+    #import "Settings.h"
+    #import "Summary.h"
+
 #endif

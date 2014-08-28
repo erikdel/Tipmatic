@@ -14,13 +14,21 @@
 		84185AC619A5AFE600FE0AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84185AC519A5AFE600FE0AB1 /* main.m */; };
 		84185ACA19A5AFE600FE0AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84185AC919A5AFE600FE0AB1 /* AppDelegate.m */; };
 		84185ACD19A5AFE600FE0AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84185ACB19A5AFE600FE0AB1 /* Main.storyboard */; };
-		84185AD019A5AFE600FE0AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84185ACF19A5AFE600FE0AB1 /* ViewController.m */; };
 		84185AD219A5AFE600FE0AB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84185AD119A5AFE600FE0AB1 /* Images.xcassets */; };
 		84185AD919A5AFE600FE0AB1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84185AD819A5AFE600FE0AB1 /* XCTest.framework */; };
 		84185ADA19A5AFE600FE0AB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84185AB919A5AFE600FE0AB1 /* Foundation.framework */; };
 		84185ADB19A5AFE600FE0AB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84185ABD19A5AFE600FE0AB1 /* UIKit.framework */; };
 		84185AE319A5AFE600FE0AB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84185AE119A5AFE600FE0AB1 /* InfoPlist.strings */; };
 		84185AE519A5AFE600FE0AB1 /* TipmaticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84185AE419A5AFE600FE0AB1 /* TipmaticTests.m */; };
+		84185AF419A5B0A100FE0AB1 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 84185AF319A5B0A100FE0AB1 /* Home.m */; };
+		84185AF719A6A30600FE0AB1 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 84185AF619A6A30600FE0AB1 /* People.m */; };
+		84185AFA19A6A7B400FE0AB1 /* Summary.m in Sources */ = {isa = PBXBuildFile; fileRef = 84185AF919A6A7B400FE0AB1 /* Summary.m */; };
+		84185AFD19A6A7E300FE0AB1 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 84185AFC19A6A7E300FE0AB1 /* Settings.m */; };
+		84185AFF19A82ED700FE0AB1 /* settings_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84185AFE19A82ED700FE0AB1 /* settings_iphone@2x.png */; };
+		84185B0119A8384F00FE0AB1 /* back_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84185B0019A8384F00FE0AB1 /* back_iphone@2x.png */; };
+		84185B0319A83DA000FE0AB1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84185B0219A83DA000FE0AB1 /* StoreKit.framework */; };
+		84185B0D19A9320500FE0AB1 /* info_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84185B0C19A9320500FE0AB1 /* info_iphone@2x.png */; };
+		84185B1719ABC4A600FE0AB1 /* circle_background_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84185B1619ABC4A600FE0AB1 /* circle_background_iphone@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +53,26 @@
 		84185AC819A5AFE600FE0AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84185AC919A5AFE600FE0AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84185ACC19A5AFE600FE0AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84185ACE19A5AFE600FE0AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84185ACF19A5AFE600FE0AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84185AD119A5AFE600FE0AB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84185AD719A5AFE600FE0AB1 /* TipmaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipmaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84185AD819A5AFE600FE0AB1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84185AE019A5AFE600FE0AB1 /* TipmaticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipmaticTests-Info.plist"; sourceTree = "<group>"; };
 		84185AE219A5AFE600FE0AB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84185AE419A5AFE600FE0AB1 /* TipmaticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipmaticTests.m; sourceTree = "<group>"; };
+		84185AF219A5B0A100FE0AB1 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Home.h; path = Tipmatic/Home.h; sourceTree = "<group>"; };
+		84185AF319A5B0A100FE0AB1 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Home.m; path = Tipmatic/Home.m; sourceTree = "<group>"; };
+		84185AF519A6A30600FE0AB1 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = People.h; path = Tipmatic/People.h; sourceTree = "<group>"; };
+		84185AF619A6A30600FE0AB1 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = People.m; path = Tipmatic/People.m; sourceTree = "<group>"; };
+		84185AF819A6A7B400FE0AB1 /* Summary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Summary.h; path = Tipmatic/Summary.h; sourceTree = "<group>"; };
+		84185AF919A6A7B400FE0AB1 /* Summary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Summary.m; path = Tipmatic/Summary.m; sourceTree = "<group>"; };
+		84185AFB19A6A7E300FE0AB1 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = Tipmatic/Settings.h; sourceTree = "<group>"; };
+		84185AFC19A6A7E300FE0AB1 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = Tipmatic/Settings.m; sourceTree = "<group>"; };
+		84185AFE19A82ED700FE0AB1 /* settings_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_iphone@2x.png"; sourceTree = "<group>"; };
+		84185B0019A8384F00FE0AB1 /* back_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_iphone@2x.png"; sourceTree = "<group>"; };
+		84185B0219A83DA000FE0AB1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		84185B0419A842B600FE0AB1 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		84185B0C19A9320500FE0AB1 /* info_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info_iphone@2x.png"; sourceTree = "<group>"; };
+		84185B1619ABC4A600FE0AB1 /* circle_background_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_background_iphone@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84185B0319A83DA000FE0AB1 /* StoreKit.framework in Frameworks */,
 				84185ABC19A5AFE600FE0AB1 /* CoreGraphics.framework in Frameworks */,
 				84185ABE19A5AFE600FE0AB1 /* UIKit.framework in Frameworks */,
 				84185ABA19A5AFE600FE0AB1 /* Foundation.framework in Frameworks */,
@@ -101,6 +122,7 @@
 		84185AB819A5AFE600FE0AB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84185B0219A83DA000FE0AB1 /* StoreKit.framework */,
 				84185AB919A5AFE600FE0AB1 /* Foundation.framework */,
 				84185ABB19A5AFE600FE0AB1 /* CoreGraphics.framework */,
 				84185ABD19A5AFE600FE0AB1 /* UIKit.framework */,
@@ -114,9 +136,9 @@
 			children = (
 				84185AC819A5AFE600FE0AB1 /* AppDelegate.h */,
 				84185AC919A5AFE600FE0AB1 /* AppDelegate.m */,
+				84185B0419A842B600FE0AB1 /* Config.h */,
 				84185ACB19A5AFE600FE0AB1 /* Main.storyboard */,
-				84185ACE19A5AFE600FE0AB1 /* ViewController.h */,
-				84185ACF19A5AFE600FE0AB1 /* ViewController.m */,
+				84185AF119A5B03100FE0AB1 /* VC */,
 				84185AD119A5AFE600FE0AB1 /* Images.xcassets */,
 				84185AC019A5AFE600FE0AB1 /* Supporting Files */,
 			);
@@ -126,6 +148,10 @@
 		84185AC019A5AFE600FE0AB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84185B0019A8384F00FE0AB1 /* back_iphone@2x.png */,
+				84185B1619ABC4A600FE0AB1 /* circle_background_iphone@2x.png */,
+				84185B0C19A9320500FE0AB1 /* info_iphone@2x.png */,
+				84185AFE19A82ED700FE0AB1 /* settings_iphone@2x.png */,
 				84185AC119A5AFE600FE0AB1 /* Tipmatic-Info.plist */,
 				84185AC219A5AFE600FE0AB1 /* InfoPlist.strings */,
 				84185AC519A5AFE600FE0AB1 /* main.m */,
@@ -150,6 +176,22 @@
 				84185AE119A5AFE600FE0AB1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84185AF119A5B03100FE0AB1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				84185AF219A5B0A100FE0AB1 /* Home.h */,
+				84185AF319A5B0A100FE0AB1 /* Home.m */,
+				84185AF519A6A30600FE0AB1 /* People.h */,
+				84185AF619A6A30600FE0AB1 /* People.m */,
+				84185AFB19A6A7E300FE0AB1 /* Settings.h */,
+				84185AFC19A6A7E300FE0AB1 /* Settings.m */,
+				84185AF819A6A7B400FE0AB1 /* Summary.h */,
+				84185AF919A6A7B400FE0AB1 /* Summary.m */,
+			);
+			name = VC;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +272,11 @@
 			files = (
 				84185AD219A5AFE600FE0AB1 /* Images.xcassets in Resources */,
 				84185AC419A5AFE600FE0AB1 /* InfoPlist.strings in Resources */,
+				84185B0119A8384F00FE0AB1 /* back_iphone@2x.png in Resources */,
+				84185AFF19A82ED700FE0AB1 /* settings_iphone@2x.png in Resources */,
 				84185ACD19A5AFE600FE0AB1 /* Main.storyboard in Resources */,
+				84185B0D19A9320500FE0AB1 /* info_iphone@2x.png in Resources */,
+				84185B1719ABC4A600FE0AB1 /* circle_background_iphone@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84185AD019A5AFE600FE0AB1 /* ViewController.m in Sources */,
+				84185AF719A6A30600FE0AB1 /* People.m in Sources */,
+				84185AFA19A6A7B400FE0AB1 /* Summary.m in Sources */,
+				84185AFD19A6A7E300FE0AB1 /* Settings.m in Sources */,
 				84185ACA19A5AFE600FE0AB1 /* AppDelegate.m in Sources */,
 				84185AC619A5AFE600FE0AB1 /* main.m in Sources */,
+				84185AF419A5B0A100FE0AB1 /* Home.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +505,7 @@
 				84185AEA19A5AFE600FE0AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84185AEB19A5AFE600FE0AB1 /* Build configuration list for PBXNativeTarget "TipmaticTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +514,7 @@
 				84185AED19A5AFE600FE0AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <StoreKit/StoreKit.h>
+#import "Home.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class Home;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UIAlertViewDelegate, SKProductsRequestDelegate, SKPaymentTransactionObserver > {
+    
+    NSUserDefaults *defaults;
+    
+    SKProductsRequest *productsRequest;
+    
+    NSArray *validProducts;
+    
+    NSMutableArray *_products;
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) Home *homeViewController;
 
 @end
